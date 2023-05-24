@@ -1,0 +1,24 @@
+{
+  "files": [],
+  "include": [
+    "env.d.ts",
+    "src/*.vue",
+    "src/**/*",
+    "src/**/*.vue",
+    "auto-imports.d.ts",
+    "components.d.ts",
+    "src/client/*.vue",
+    "src/client/**/*",
+    "src/client/**/*.vue",
+    "auto-imports.d.ts",
+    "components.d.ts",
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ]
+}
